@@ -1,0 +1,15 @@
+To check how many servers are running in background:-
+
+sudo netstat -tulpn | grep LISTEN
+
+
+
+To Kill services runnig in background:-
+
+kill process_id
+
+
+
+To run process in background 
+
+nohup python manage.py runserver 0.0.0.0:8000 &
